@@ -8,6 +8,8 @@ $ celery -A app.etl_app worker --loglevel=INFO -n gen_worker@instance1 --concurr
 ```
 $ celery -A app.etl_app worker --loglevel=INFO -n gen_worker@instance2 --concurrency=1
 ```
+
+Start the main process.
 > terminal 3
  ```
  python -m samples.<file_name.py>
