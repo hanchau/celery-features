@@ -1,4 +1,6 @@
 #### Instructions
+Clone the Repo.
+
 Start the workers.
 > terminal 1
 ```
