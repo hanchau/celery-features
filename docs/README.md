@@ -28,8 +28,6 @@ Start the main process.
 
 
 ### LOGS : Testing limits of celerly to parallelize CPU bound tasks
-'''
-
     LOGS -------> For Chunks of 2500000
     (skl) ➜  celery_features python -m samples.test_parallel
     Parallel | TOTAL TIME TAKEN:  10.399291753768921
@@ -60,5 +58,3 @@ Start the main process.
     Parallel | TOTAL TIME TAKEN:  27.278109788894653
     [sum_of_list] : 1599999960000000
     Linear | TOTAL TIME TAKEN:  9.12960147857666
-
-'''
